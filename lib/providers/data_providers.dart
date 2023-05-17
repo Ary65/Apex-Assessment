@@ -37,7 +37,7 @@ class ApiService {
     String phone,
   ) async {
     const url =
-        'http://139.59.35.127/apex-dmit/public/api/company'; // Replace with your actual API endpoint
+        'http://139.59.35.127/apex-dmit/public/api/company';
 
     try {
       final response = await http.post(
